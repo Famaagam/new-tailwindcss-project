@@ -1,19 +1,45 @@
-let slideIndex = 0;
-showSlides();
+let slideIndex = 1;
+let slideInterval;
 
-function showSlides() {
-  let i;
+document.addEventListener("DOMContentLoaded", function () {
+  showSlides(slideIndex);
+  slideInterval = setInterval(() => plusSlides(1), 2000); // Auto-play every 2 seconds
+});
+
+// Next/previous controls
+function plusSlides(n) {
+  clearInterval(slideInterval); // Stop auto-play on manual navigation
+  showSlides(slideIndex += n);
+  slideInterval = setInterval(() => plusSlides(1), 2000); // Restart auto-play
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  clearInterval(slideInterval);
+  showSlides(slideIndex = n);
+  slideInterval = setInterval(() => plusSlides(1), 2000);
+}
+
+function showSlides(n) {
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+
+  if (n > slides.length) slideIndex = 1;
+  if (n < 1) slideIndex = slides.length;
+
+  // Hide all slides
+  for (let slide of slides) {
+    slide.style.display = "none";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+
+  // Remove active class from all dots
+  for (let dot of dots) {
+    dot.classList.remove("bg-gray-800");
+    dot.classList.add("bg-gray-400");
   }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+
+  // Show the current slide and highlight the correct dot
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].classList.remove("bg-gray-400");
+  dots[slideIndex - 1].classList.add("bg-gray-800");
 }
