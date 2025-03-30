@@ -584,9 +584,6 @@
   .end-2 {
     inset-inline-end: calc(var(--spacing) * 2);
   }
-  .top-1 {
-    top: calc(var(--spacing) * 1);
-  }
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
@@ -833,9 +830,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -943,10 +937,6 @@
   .translate-full {
     --tw-translate-x: 100%;
     --tw-translate-y: 100%;
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .-translate-y-1 {
-    --tw-translate-y: calc(var(--spacing) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-y-1\/2 {
@@ -1518,14 +1508,8 @@
     --tw-border-style: solid;
     border-style: solid;
   }
-  .border-red-500 {
-    border-color: var(--color-red-500);
-  }
   .border-red-700 {
     border-color: var(--color-red-700);
-  }
-  .border-b-red-700 {
-    border-bottom-color: var(--color-red-700);
   }
   .bg-\(--my_variable\) {
     background-color: var(--my_variable);
@@ -1542,9 +1526,6 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
-  .bg-black {
-    background-color: var(--color-black);
-  }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
   }
@@ -1553,12 +1534,6 @@
   }
   .bg-gray-400 {
     background-color: var(--color-gray-400);
-  }
-  .bg-gray-500 {
-    background-color: var(--color-gray-500);
-  }
-  .bg-gray-600 {
-    background-color: var(--color-gray-600);
   }
   .bg-gray-700 {
     background-color: var(--color-gray-700);
@@ -1909,20 +1884,11 @@
   .text-black {
     color: var(--color-black);
   }
-  .text-blue-400 {
-    color: var(--color-blue-400);
-  }
   .text-blue-500 {
     color: var(--color-blue-500);
   }
-  .text-blue-900 {
-    color: var(--color-blue-900);
-  }
   .text-gray-600 {
     color: var(--color-gray-600);
-  }
-  .text-gray-900 {
-    color: var(--color-gray-900);
   }
   .text-purple-700 {
     color: var(--color-purple-700);
@@ -2021,9 +1987,6 @@
   }
   .underline {
     text-decoration-line: underline;
-  }
-  .decoration-red-500 {
-    text-decoration-color: var(--color-red-500);
   }
   .decoration-red-700 {
     text-decoration-color: var(--color-red-700);
