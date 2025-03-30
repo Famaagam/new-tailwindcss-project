@@ -11,204 +11,229 @@
   <section id="Welcome">
     <div class="container mx-auto">
       <header class="flex items-center justify-between">
-        <img src="CWC.png" alt="Calvary Worship Center Logo" class="h-20">
+        <img src="CWC.png" alt="CWC Logo" class="h-20">
         <h1 class="text-2xl">Calvary Worship Center</h1>
         <nav>
           <ul class="flex space-x-5">
             <li><a href="#Who-We-Are" class="hover:text-red-700 hover:underline underline-offset-8">Who We Are</a></li>
             <li><a href="#Services" class="hover:text-red-700 hover:underline underline-offset-8">Services</a></li>
-            <li><a href="#Events" class="hover:text-red-700 hover:underline underline-offset-8">Events</a></li>
+            <li><a href="#Events" class="hover:text-red-700 hover:underline underline-offset-8">Event</a></li>
             <li><a href="#Giving" class="hover:text-red-700 hover:underline underline-offset-8">Giving</a></li>
             <li><a href="#Contact" class="hover:text-red-700 hover:underline underline-offset-8">Contact</a></li>
-          </ul>
+          </ul> 
         </nav>
       </header>
     </div>
   </section>
-
   <section id="Who-We-Are">
-    <div class="slideshow-container relative m-auto max-w-12xl">
-      <!-- Slides -->
-      <div class="mySlides fade">
-        <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">1 / 8</div>
-        <img src="C0.png" alt="Church building exterior" class="w-full">
-      </div>
-      <div class="mySlides fade">
-        <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">2 / 8</div>
-        <img src="C1.png" alt="Worship service" class="w-full">
-      </div>
-      <div class="mySlides fade">
-        <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">3 / 8</div>
-        <img src="C2.png" alt="Church community gathering" class="w-full">
-      </div>
-      <div class="mySlides fade">
-        <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">4 / 8</div>
-        <img src="C3.png" alt="Bible study group" class="w-full">
-      </div>
-      <div class="mySlides fade">
-        <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">5 / 8</div>
-        <img src="C4.png" alt="Youth ministry event" class="w-full">
-      </div>
-      <div class="mySlides fade">
-        <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">6 / 8</div>
-        <img src="C5.jpg" alt="Prayer meeting" class="w-full">
-      </div>
-      <div class="mySlides fade">
-        <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">7 / 8</div>
-        <img src="C7.jpg" alt="Church leadership" class="w-full">
-      </div>
-      <div class="mySlides fade">
-        <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">8 / 8</div>
-        <img src="C8.png" alt="Sunday service congregation" class="w-full">
-      </div>
+   <!-- Slideshow container -->
+<div class="slideshow-container relative m-auto max-w-12xl">
 
-      <button class="prev absolute top-1/2 left-4 -translate-y-1/2 bg-black/50 text-white text-2xl p-3 rounded-full hover:bg-black/80 transition" onclick="plusSlides(-1)" aria-label="Previous slide">&#10094;</button>
-      <button class="next absolute top-1/2 right-4 -translate-y-1/2 bg-black/50 text-white text-2xl p-3 rounded-full hover:bg-black/80 transition" onclick="plusSlides(1)" aria-label="Next slide">&#10095;</button>
-    </div>
+  <!-- Slides -->
+  <div class="mySlides fade">
+    <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">1 / 8</div>
+    <img src="C0.png" class="w-full" alt="Church Image 1">
+  </div>
 
-    <div class="flex justify-center space-x-2 mt-4">
-      <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(1)" aria-label="Go to slide 1"></span>
-      <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(2)" aria-label="Go to slide 2"></span>
-      <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(3)" aria-label="Go to slide 3"></span>
-      <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(4)" aria-label="Go to slide 4"></span>
-      <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(5)" aria-label="Go to slide 5"></span>
-      <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(6)" aria-label="Go to slide 6"></span>
-      <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(7)" aria-label="Go to slide 7"></span>
-      <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(8)" aria-label="Go to slide 8"></span>
-    </div>
+  <div class="mySlides fade">
+    <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">2 / 8</div>
+    <img src="C1.png" class="w-full" alt="Church Image 2">
+  </div>
 
-    <div class="grid grid-cols-3 grid-rows-1 gap-2 mt-8">
-      <div class="flex items-center space-x-4">
-        <a href="https://calvaryonline.ca/giving/"><img src="grid-give-1.png" alt="Give icon"></a>
-        <div>
-          <h3 class="underline underline-offset-8">Give</h3>
-          <a href="https://calvaryonline.ca/giving/"><p>Click here to GIVE TODAY!</p></a>
-        </div>
-      </div>
-      <div class="flex items-center space-x-4">
-        <a href="https://www.youtube.com/@cwcsurrey"><img src="grid-worship-services-2.png" alt="Worship services icon"></a>
-        <div>
-          <h3 class="underline underline-offset-8">Worship Services</h3>
-          <a href="https://www.youtube.com/@cwcsurrey"><p>Sunday Services @ 9:30am and 11:30am. Friday Prayer Meeting @ 7:30pm</p></a>
-        </div>
-      </div>
-      <div class="flex items-center space-x-4">
-        <a href="https://calvaryonline.ca/im-new-here/"><img src="grid-new-here-3.png" alt="New visitor icon"></a>
-        <div>
-          <h3 class="underline underline-offset-8">I'm New Here</h3>
-          <a href="https://calvaryonline.ca/im-new-here/"><p>Helpful information for visitors What CWC is all about</p></a>
-        </div>
-      </div>
+  <div class="mySlides fade">
+    <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">3 / 8</div>
+    <img src="C2.png" class="w-full" alt="Church Image 3">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">4 / 8</div>
+    <img src="C3.png" class="w-full" alt="Church Image 4">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">5 / 8</div>
+    <img src="C4.png" class="w-full" alt="Church Image 5">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">6 / 8</div>
+    <img src="C5.jpg" class="w-full" alt="Church Image 6">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">7 / 8</div>
+    <img src="C7.jpg" class="w-full" alt="Church Image 7">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 text-xs rounded">8 / 8</div>
+    <img src="C8.png" class="w-full" alt="Church Image 8">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <button class="prev absolute top-1/2 left-4 -translate-y-1/2 bg-black/50 text-white text-2xl p-3 rounded-full hover:bg-black/80 transition"
+    onclick="plusSlides(-1)">&#10094;</button>
+
+  <button class="next absolute top-1/2 right-4 -translate-y-1/2 bg-black/50 text-white text-2xl p-3 rounded-full hover:bg-black/80 transition"
+    onclick="plusSlides(1)">&#10095;</button>
+
+</div>
+
+<!-- The dots/circles -->
+<div class="flex justify-center space-x-2 mt-4">
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(1)"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(2)"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(3)"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(4)"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(5)"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(6)"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(7)"></span>
+  <span class="dot w-3 h-3 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(8)"></span>
+</div>
+
+<!-- The grid -->
+ <div class="grid grid-cols-3 grid-rows-1 gap-2">
+  <div class="flex items-center space-x-4">
+    <a href="https://calvaryonline.ca/giving/"><img src="grid-give-1.png" alt="Give-icon"></a>
+    <div>
+      <h3 class="underline underline-offset-8">Give</h3>
+      <a href="https://calvaryonline.ca/giving/"><p>Click here to GIVE TODAY!</p></a>
     </div>
+  </div>
+  <div class="flex items-center space-x-4">
+    <a href="https://www.youtube.com/@cwcsurrey"><img src="grid-worship-services-2.png" alt="Worship-icon"></a>
+    <div>
+      <h3 class="underline underline-offset-8">Worship Services</h3>
+      <a href="https://www.youtube.com/@cwcsurrey"><p>Sunday Services @ 9:30am and 11:30am. Friday Prayer Meeting @ 7:30pm</p></a>
+    </div>
+  </div>
+  <div class="flex items-center space-x-4">
+    <a href="https://calvaryonline.ca/im-new-here/"><img src="grid-new-here-3.png" alt="grid-new-here-icon"></a>
+    <div>
+      <h3 class="underline underline-offset-8">I'm New Here</h3>
+      <a href="https://calvaryonline.ca/im-new-here/"><p>Helpful information for visitors What CWC is all about</p></a>
+    </div>
+  </div>
+ </div>
   </section>
-
-  <section id="Services" class="mt-8">
+  <section id="Services">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: black;">
       <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-        src="https://www.youtube-nocookie.com/embed/KOa9Uht0RgA?si=AX3Xo3IpSEQbqWAi" 
-        title="Calvary Worship Center Service" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
+          src="https://www.youtube-nocookie.com/embed/KOa9Uht0RgA?si=AX3Xo3IpSEQbqWAi" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
       </iframe>
-    </div>
-    <div class="grid grid-cols-3 grid-rows-1 gap-2 mt-8">
-      <div class="flex items-center space-x-4">
-        <a href="https://calvaryonline.ca/testimonial/"><img src="icon-testimonies.png" alt="Testimonies icon"></a>
-        <div>
-          <h3 class="underline underline-offset-8">Testimonies</h3>
-          <a href="https://calvaryonline.ca/testimonial/"><p>Look what the Lord has done!</p></a>
-        </div>
-      </div>
-      <div class="flex items-center space-x-4">
-        <a href=""><img src="icon-sermons.png" alt="Sermons icon"></a>
-        <div>
-          <h3 class="underline underline-offset-8">Sermons</h3>
-          <a href=""><p>Recent sermons from CWC Surrey</p></a>
-        </div>       
-      </div>
-      <div class="flex items-center space-x-4">
-        <a href=""><img src="icon-prayer-requests.jpg" alt="Prayer requests icon"></a>
-        <div>
-          <h3 class="underline underline-offset-8">Prayer Requests</h3>
-          <a href=""><p>Complete this form to send your prayer requests to our team.</p></a>
-        </div>
+   </div>
+   <div class="grid grid-cols-3 grid-rows-1 gap-2">
+    <div class="flex items-center space-x-4">
+      <a href="https://calvaryonline.ca/testimonial/"><img src="icon-testimonies.png" alt="icon-testimonies"></a>
+      <div>
+        <h3 class="underline underline-offset-8">Testimonies</h3>
+        <a href="https://calvaryonline.ca/testimonial/"><p>Look what the Lord has done!</p></a>
       </div>
     </div>
-  </section>
-
-  <section id="Events" class="mt-12">
+    <div class="flex items-center space-x-4">
+      <a href=""><img src="icon-sermons.png" alt="Worship-icon"></a>
+      <div>
+        <h3 class="underline underline-offset-8">Sermons</h3>
+        <a href=""><p>Recent sermons from CWC Surrey</p></a>
+      </div>       
+    </div>
+    <div class="flex items-center space-x-4">
+      <a href=""><img src="icon-prayer-requests.jpg" alt="grid-prayer"></a>
+      <div>
+        <h3 class="underline underline-offset-8">Prayer Requests</h3>
+        <a href=""><p>Complete this form to send your prayer requests to our team.</p></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="grow-groups"></section>
+  <section id="Events">
     <h1 class="text-center text-purple-700 text-[30px] underline underline-offset-8 decoration-red-700">Happening this month</h1>
     <p class="text-center">In addition to our regular weekend services, check out our monthly specialized ministry meetings which you will enjoy participating in.</p> 
-    <div class="flex flex-row justify-evenly mt-8">
-      <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white p-4 border-b-4 border-red-700">
-        <a href="https://calvaryonline.ca/ladies/"><img class="w-full rounded-xl" src="CARD-1.png" alt="Ladies Ministry event"></a>
-        <div class="py-4">
-          <h2 class="text-xl font-bold text-blue-500"><a href="https://calvaryonline.ca/ladies/">LADIES MINISTRY</a></h2>
-          <p class="text-gray-600 mt-2">Come join our Ladies Ministry as we pray every Wednesday at 11AM! ....</p>
-        </div>
-        <div class="mt-4">
-          <a href="https://calvaryonline.ca/ladies/" class="bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-blue-600 inline-block">Read More</a>
-        </div>
-      </div>
-      <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white p-4 border-b-4 border-red-700">
-        <a href="https://calvaryonline.ca/this-month-at-calvary/"><img class="w-full rounded-xl" src="CARD-2.jpg" alt="Monthly events at Calvary"></a>
-        <div class="py-4">
-          <h2 class="text-xl font-bold text-blue-500"><a href="https://calvaryonline.ca/this-month-at-calvary/">EVENT</a></h2>
-          <p class="text-gray-600 mt-2">Click here to check out what is happening This Month at Calvary ...</p>
-        </div>
-        <div class="mt-4">
-          <a href="https://calvaryonline.ca/this-month-at-calvary/" class="bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-blue-600 inline-block">Read More</a>
-        </div>
-      </div>
-      <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white p-4 border-b-4 border-red-700">
-        <a href="https://calvaryonline.ca/men/"><img class="w-full rounded-xl" src="CARD-3.jpg" alt="Men's ministry event"></a>
-        <div class="py-4">
-          <h2 class="text-xl font-bold text-blue-500"><a href="https://calvaryonline.ca/men/">HIS MEN</a></h2>
-          <p class="text-gray-600 mt-2">All men are invited to come for a meal, worship and 'real men's talk'. We will also share communion together ...</p>
-        </div>
-        <div class="mt-4">
-          <a href="https://calvaryonline.ca/men/" class="bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-blue-600 inline-block">Read More</a>
-        </div>
-      </div>
+    <div class="flex flex-row justify-evenly ">
+   <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white p-4 border-b-4 border-red-700 ">
+    <a href="https://calvaryonline.ca/ladies/"><img class="w-full rounded-xl" src="CARD-1.png" alt="Card Image"></a>
+    <div class="py-4">
+      <h2 class="text-xl font-bold text-blue-500"><a href="https://calvaryonline.ca/ladies/">LADIES MINISTRY</a></h2>
+      <p class="text-gray-600 mt-2">Come join our Ladies Ministry as we pray every Wednesday at 11AM! ....</p>
     </div>
-  </section>
-
-  <footer class="bg-gray-700 flex flex-row justify-evenly py-8">
-    <div class="grid grid-cols-3 gap-4">
-      <div>
-        <h2 class="text-blue-500">LOCATION MAP</h2>
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.5413563448833!2d-122.86712332335227!3d49.20925957138191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d819d853bcf1%3A0x65875dd127e6793a!2sCalvary%20Worship%20Centre!5e0!3m2!1sen!2sca!4v1743363709749!5m2!1sen!2sca" 
-          width="600" 
-          height="450" 
-          style="border:0;" 
-          allowfullscreen 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade"
-          title="Calvary Worship Center Location Map">
-        </iframe>
-      </div>
-      <div>
-        <h2 class="text-blue-500">CONTACT US</h2>
-        <p class="text-white">11358 128 St, Surrey, BC V3R 2W6<br>
-          Ph. 604.498.2575<br>
-          Fax: 604.498.2576<br>
-          <br>
-          <a href="mailto:info@calvaryonline.ca" class="hover:underline">info@calvaryonline.ca</a><br>
-        </p>
-      </div>
-      <div>
-        <h2 class="text-blue-500">SERVICE TIMES</h2>
-        <p class="text-white">Sunday Services<br>
-          1st service: 9:30am<br>
-          2nd service: 11:30am<br>
-          <br>
-          Friday Prayer Service<br>
-          Regular: 7:30pm<br>
-          'Xtreme' Prayer: 10:00pm<br>
-        </p>
+    <div class="mt-4">
+      <button class="bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-blue-600">
+        <a href="https://calvaryonline.ca/ladies/">Read More</a>
+      </button>
+    </div>
+  </div>
+  <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white p-4 border-b-4 border-red-700">
+   <a href="https://calvaryonline.ca/this-month-at-calvary/"><img class="w-full rounded-xl"  src="CARD-2.jpg" alt="Card Image"></a>
+    <div class="py-4">
+      <h2 class="text-xl font-bold text-blue-500"><a href="https://calvaryonline.ca/this-month-at-calvary/">EVENT</a></h2>
+      <p class="text-gray-600 mt-2">Click here to check out what is happening This Month at Calvary ...
+      </p>
+    </div>
+    <div class="mt-4">
+      <button class="bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-blue-600">
+        <a href="https://calvaryonline.ca/this-month-at-calvary/">Read More</a>
+      </button>
+    </div>
+  </div>
+  <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white p-4 border-b-4 border-red-700">
+    <a href="https://calvaryonline.ca/men/"><img class="w-full rounded-xl"  src="CARD-3.jpg" alt="Card Image"></a>
+     <div class="py-4">
+       <h2 class="text-xl font-bold text-blue-500"><a href="https://calvaryonline.ca/men/">HIS MEN</a></h2>
+       <p class="text-gray-600 mt-2">All men are invited to come for a meal, worship and 'real men's talk'. We will also share communion together ...</p>
+     </div>
+     <div class="mt-4">
+       <button class="bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-blue-600">
+         <a href="https://calvaryonline.ca/men/">Read More</a>
+     </div>
+  </div>
+</div>
+   </section>
+  <section id="Giving"></section>
+  <section id="Contact"></section>
+  <footer class="bg-gray-700 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div>
+          <h2 class="text-blue-500 text-xl font-bold mb-4">LOCATION MAP</h2>
+          <div class="aspect-w-16 aspect-h-9 w-full">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.5413563448833!2d-122.86712332335227!3d49.20925957138191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d819d853bcf1%3A0x65875dd127e6793a!2sCalvary%20Worship%20Centre!5e0!3m2!1sen!2sca!4v1743363709749!5m2!1sen!2sca" 
+              class="w-full h-64 lg:h-80 border-0"
+              allowfullscreen 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Calvary Worship Center Location Map">
+            </iframe>
+          </div>
+        </div>
+        
+        <div>
+          <h2 class="text-blue-500 text-xl font-bold mb-4">CONTACT US</h2>
+          <address class="not-italic">
+            <p>11358 128 St, Surrey, BC V3R 2W6</p>
+            <p>Ph. 604.498.2575</p>
+            <p>Fax: 604.498.2576</p>
+            <p class="mt-2"><a href="mailto:info@calvaryonline.ca" class="hover:underline">info@calvaryonline.ca</a></p>
+          </address>
+        </div>
+        
+        <div>
+          <h2 class="text-blue-500 text-xl font-bold mb-4">SERVICE TIMES</h2>
+          <div>
+            <p class="font-semibold">Sunday Services</p>
+            <p>1st service: 9:30am</p>
+            <p>2nd service: 11:30am</p>
+            <p class="font-semibold mt-4">Friday Prayer Service</p>
+            <p>Regular: 7:30pm</p>
+            <p>'Xtreme' Prayer: 10:00pm</p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
